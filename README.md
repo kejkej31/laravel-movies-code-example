@@ -1,5 +1,4 @@
 ## Notes on implementation
-It wasn't specified what framework should be used (if any at all), so I took it as being able to choose, and I chose Laravel.
 In my implentation I've used two patterns: Strategy and Factory. Most of the code related to the task can be found in `./app/Services/MovieRecommendation/` and `tests/Unit/MovieRecommendationServiceTest.php`
 1) movies.php
 I took the liberty of transforming it into a JSON.
