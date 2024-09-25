@@ -11,7 +11,7 @@ class MovieRecommendationServiceTest extends TestCase
 {
     public function testReturnsAllAvailableCases(): void
     {
-        $service = app()->makeWith(MovieRecommendationService::class, [
+        $service = $this->makeRecommendationService([
             'movies' => ['movie']
         ]);
         $this->assertEquals(RecommendationAlgorithmEnum::cases(), $service->getAvailableAlgorithms());
