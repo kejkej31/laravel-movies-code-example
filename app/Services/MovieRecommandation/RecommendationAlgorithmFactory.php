@@ -22,7 +22,6 @@ class RecommendationAlgorithmFactory
         {
             throw new \InvalidArgumentException("Invalid recommendation algorithm: {$algorithm->value}");
         }
-        $class = $this->algorithmsMap[$algorithm->value];
-        return new $class;
+        return app($this->algorithmsMap[$algorithm->value]);
     }
 }

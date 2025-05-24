@@ -6,6 +6,10 @@ use App\Services\MovieRecommendation\RecommendationAlgorithm\RecommendationAlgor
 
 class TitleHasMoreThanOneWord implements RecommendationAlgorithm
 {
+    /**
+     * @param string[] $movies
+     * @return string[]
+     */
     public function __invoke(array $movies): array
     {
         return array_filter($movies, function (string $title) {

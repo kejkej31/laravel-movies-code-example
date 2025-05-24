@@ -7,5 +7,5 @@ Route::prefix('movie')->name('movie.')->group(function () {
     Route::get('recommendations', [MovieRecommendationController::class, 'recommend'])
         ->name('recommendations');
     Route::get('recommendations/algorithms', [MovieRecommendationController::class, 'getAvailableAlgorithms'])
-        ->name('recommendation.algorithms');
+        ->name('recommendations.algorithms');
 });
