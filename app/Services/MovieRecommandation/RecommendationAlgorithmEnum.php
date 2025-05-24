@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\MovieRecommandation;
+namespace App\Services\MovieRecommendation;
 
 /**
  * New cases should be also added to the RecommendationAlgorithmFactory

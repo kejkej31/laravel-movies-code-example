@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Services\MovieRecommandation;
+namespace App\Services\MovieRecommendation;
 
 use Illuminate\Support\Facades\Storage;
-use App\Services\MovieRecommandation\RecommendationAlgorithmEnum;
+use App\Services\MovieRecommendation\RecommendationAlgorithmEnum;
 
 class MovieRecommendationService
 {

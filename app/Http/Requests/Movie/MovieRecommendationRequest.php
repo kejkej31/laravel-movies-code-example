@@ -4,7 +4,7 @@ namespace App\Http\Requests\Movie;
 
 use Illuminate\Validation\Rule;
 use Illuminate\Foundation\Http\FormRequest;
-use App\Services\MovieRecommandation\RecommendationAlgorithmEnum;
+use App\Services\MovieRecommendation\RecommendationAlgorithmEnum;
 
 class MovieRecommendationRequest extends FormRequest
 {

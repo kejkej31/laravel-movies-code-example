@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\MovieRecommandation\RecommendationAlgorithm;
+namespace App\Services\MovieRecommendation\RecommendationAlgorithm;
 
 interface RecommendationAlgorithm
 {

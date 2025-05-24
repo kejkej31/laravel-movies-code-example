@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Services\MovieRecommandation;
+namespace App\Services\MovieRecommendation;
 
-use App\Services\MovieRecommandation\RecommendationAlgorithmEnum;
-use App\Services\MovieRecommandation\RecommendationAlgorithm\RecommendationAlgorithm;
-use App\Services\MovieRecommandation\RecommendationAlgorithm\RandomThree;
-use App\Services\MovieRecommandation\RecommendationAlgorithm\StartsWithWAndHasEvenLettersInTitle;
-use App\Services\MovieRecommandation\RecommendationAlgorithm\TitleHasMoreThanOneWord;
+use App\Services\MovieRecommendation\RecommendationAlgorithmEnum;
+use App\Services\MovieRecommendation\RecommendationAlgorithm\RecommendationAlgorithm;
+use App\Services\MovieRecommendation\RecommendationAlgorithm\RandomThree;
+use App\Services\MovieRecommendation\RecommendationAlgorithm\StartsWithWAndHasEvenLettersInTitle;
+use App\Services\MovieRecommendation\RecommendationAlgorithm\TitleHasMoreThanOneWord;
 
 class RecommendationAlgorithmFactory
 {

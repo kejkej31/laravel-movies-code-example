@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Services\MovieRecommandation\RecommendationAlgorithm;
+namespace App\Services\MovieRecommendation\RecommendationAlgorithm;
 
 use Illuminate\Support\Arr;
-use App\Services\MovieRecommandation\RecommendationAlgorithm\RecommendationAlgorithm;
+use App\Services\MovieRecommendation\RecommendationAlgorithm\RecommendationAlgorithm;
 
 class RandomThree implements RecommendationAlgorithm
 {

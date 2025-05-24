@@ -4,8 +4,8 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
-use App\Services\MovieRecommandation\MovieRecommendationService;
-use App\Services\MovieRecommandation\RecommendationAlgorithmEnum;
+use App\Services\MovieRecommendation\MovieRecommendationService;
+use App\Services\MovieRecommendation\RecommendationAlgorithmEnum;
 
 class MovieRecommendationServiceTest extends TestCase
 {

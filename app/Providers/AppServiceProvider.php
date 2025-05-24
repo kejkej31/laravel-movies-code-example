@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
-use App\Services\MovieRecommandation\MovieRecommendationService;
+use App\Services\MovieRecommendation\MovieRecommendationService;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -17,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
             MovieRecommendationService::class,
             function ($app) {
                 return new MovieRecommendationService(
-                    $app->make(\App\Services\MovieRecommandation\RecommendationAlgorithmFactory::class),
+                    $app->make(\App\Services\MovieRecommendation\RecommendationAlgorithmFactory::class),
                     Storage::json('movies.json')
                 );
             }

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services\MovieRecommandation\RecommendationAlgorithm;
+namespace App\Services\MovieRecommendation\RecommendationAlgorithm;
 
-use App\Services\MovieRecommandation\RecommendationAlgorithm\RecommendationAlgorithm;
+use App\Services\MovieRecommendation\RecommendationAlgorithm\RecommendationAlgorithm;
 
 class StartsWithWAndHasEvenLettersInTitle implements RecommendationAlgorithm
 {
